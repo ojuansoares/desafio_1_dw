@@ -6,76 +6,70 @@
     <title>Contatos</title>
 </head>
 
-    <style>
+<style>
 
-        body {
-            background-image: url(/imagens/fundo2.png);
-        }
+    body {
+        padding-top: 9px;
+        margin: 0 auto;
+        width: 61%;
+        background-image: url(/imagens/fundo2.png);
+    }
 
-        #heading {
-            width: 90%;
-            display: flex;
-            justify-content: space-between;
-            padding: 20px;
-            margin: 0 auto;
-            border: 2px solid transparent;
-        }
+    header {
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        border: 2px solid transparent;
+    }
 
-        #text {
-            width: 90%;
-            margin: 0 auto;
-        }
+    main {
+        margin: 0 auto;
+    }
 
-        #form {
-            width: 90%;
-            margin: 0 auto;
-        }
-        p {
-            padding: 0;
-            margin: 0;
-            display: inline;
-        }
-
-    </style>
+</style>
 
 <body>
+<header>
+    <img src="/imagens/logo.png" alt="logo" width="200px" height="52px">
+
+    <ul>
+        <a href="home.html">Home </a>
+        <a href="quem_somos.html">| Quem Somos </a>
+        <a href="contatos.html">| Contatos</a>
+    </ul>
+</header>
+
+<main>  
     
-    <div id="heading">
-        <img src="/imagens/logo.png" alt="logo" width="200px" height="52px">
-
-        <ul>
-            <a href="home.html">Home </a>
-            <a href="quem_somos.html">| Quem Somos </a>
-            <a href="contatos.html">| Contatos</a>
-        </ul>
-
-    </div>
-
-    <div id="text">
-        <h1>Entre em contato</h1>
-        <p>Lorem <b>ipsum dolor</b> <i>sit amet</i>, consectetur adipisicing elit. Quas obcaecati, quaerat dolores eius nemo cum aperiam enim odit!</p>
-        <br>
+    <h1>Entre em contato</h1>
+    <p>Lorem <b>ipsum dolor</b> <i>sit amet</i>, consectetur adipisicing elit. Quas obcaecati, quaerat dolores eius nemo cum aperiam enim odit!</p>
+    <br>
     <hr>
-    </div>
     <br>
 
-    <div id="form">
     <form>
-         <p>Seu e-mail:</p><br>
-         <input type="text" name="email" id="email"><br>
-         <p>Assunto:</p><br>
-         <input type="text" name="assunto" id="assunto"><br>
-         <p>Descrição:</p><br>
-         <input type="text" name="descricao" id="descricao" style="width: 160px; height: 40px"><br>
-         <p><input type="submit" value="Enviar"></p>
+        <label for="email">Seu email:</label><br>
+        <input type="text" name="email" id="email"><br>
+        <label for="email">Assunto:</label><br>
+        <input type="text" name="assunto" id="assunto"><br>
+        <label for="email">Descrição</label><br>
+
+        <textarea name="Descricao" rows="4" cols="25"></textarea><br>
+
+        <input type="submit" value="Enviar">
     </form>
-    </div>
 
-    <br>
+   <br>
 
+</main>
+
+<br>
+
+<footer>
     <h2 style="text-align-last: center; font-size: medium;">
-        Todos os direitos reservados
+    Todos os direitos reservados
     </h2>
+</footer>
 
 </body>
 </html>
