@@ -1,0 +1,21 @@
+body {
+    padding-top: 9px;
+    margin: 0 auto;
+    width: 60%;
+    background-image: url(/imagens/fundo.png);
+}
+
+#image-url{
+    background-image: url(/imagens/fundo2.png);
+}
+
+header {
+    display: flex;
+    padding: 22px;
+    justify-content: space-between;
+}
+
+footer{
+    text-align-last: center;
+    font-size: small;
+}
